@@ -1,6 +1,7 @@
 
 # ATHENA  
 ![App Screenshot](https://trojan-riders-athena.netlify.app/src/img/brand.png)
+<br>
 Athena is a web-application that provides one stop solution to all the problems that women face in their day to day life , ranging from queries related to their health to even beauty and fashion secrets. <br>
 This is a project made by our team "Trojan Riders" for the "Inspirathon" conducted by NSUT.
 
