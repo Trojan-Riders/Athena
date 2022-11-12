@@ -1,14 +1,14 @@
 const options = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': 'faaf235513msh73cd090780fbee3p11b255jsnc38e3cb87bfe',
-		'X-RapidAPI-Host': 'free-news.p.rapidapi.com'
-	}
+    method: 'GET',
+    headers: {
+        'X-RapidAPI-Key': 'faaf235513msh73cd090780fbee3p11b255jsnc38e3cb87bfe',
+        'X-RapidAPI-Host': 'free-news.p.rapidapi.com'
+    }
 };
 
-fetch('https://free-news.p.rapidapi.com/v1/search?q=Beauty%20Solutions&lang=en', options)
-	.then(response => response.json())
-	.then(response =>{
+fetch('https://free-news.p.rapidapi.com/v1/search?q=Women%20Beauty%20Solutions&lang=en', options)
+    .then(response => response.json())
+    .then(response => {
 
         document.getElementById('main').setAttribute('href', response.articles[0].link);
         document.getElementById('a0').setAttribute('src', response.articles[0].media);
@@ -73,19 +73,16 @@ fetch('https://free-news.p.rapidapi.com/v1/search?q=Beauty%20Solutions&lang=en',
             document.getElementById('c4_heading').innerHTML = response["articles"][9]["title"].substring(0, 50) + '...';
         }
     });
-var x=0;
-function change()
-{
-    if(x==0)
-    {
+var x = 0;
+
+function change() {
+    if (x == 0) {
         document.getElementById('hamburger').setAttribute('src', '../src/img/open.png');
         document.getElementById('linkers').style.display = 'flex';
-        x=1;
-    }
-    else
-    {
+        x = 1;
+    } else {
         document.getElementById('hamburger').setAttribute('src', '../src/img/closed.png');
         document.getElementById('linkers').style.display = 'none';
-        x=0;
+        x = 0;
     }
 }
