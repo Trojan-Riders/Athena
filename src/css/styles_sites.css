@@ -1,0 +1,260 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#mobile
+{
+    display: none;
+}
+.nav
+{
+    display: flex;
+    border-bottom: 1px solid #FF00C7;
+    background-color: #FFE99D;
+}
+.nav .brand
+{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    align-items: center;
+}
+.nav .brand .logo
+{
+    width: 10%;
+}
+.nav .brand .logo a
+{
+    width: 100%;
+}
+.nav .brand .logo a img
+{
+    width: 100%;
+}
+.nav .brand .name
+{
+    font-size: 250%;
+    font-family: 'Teko', sans-serif;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.nav .links
+{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav .links a
+{
+    font-size: 150%;
+    width: 100%;
+    text-decoration: none;
+    color: #FF00C7;
+    font-weight: 900;
+}
+
+
+.area_one
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.area_one .left
+{
+    width: 60%;
+    padding: 1%;
+}
+.area_one .left .row
+{
+    display: flex;
+}
+.area_one .left .row a
+{
+    width: 50%;
+    padding: 1%;
+    margin: 1%;
+    background-color: #FDC7EA;
+    border-radius: 7px;
+    text-decoration: none;
+    align-items: center;
+}
+.area_one .left .row a .image
+{
+    width: 100%;
+    height: 70%;
+}
+.area_one .left .row a .image img
+{
+    width: 100%;
+    height: 100%;
+}
+.area_one .left .row a .heading
+{
+    font-size: 100%;
+    color: black;
+    font-weight: 900;
+    text-align: center;
+}
+.area_one .right
+{
+    width: 40%;
+    padding: 1%;
+}
+.area_one .right a
+{
+    width: 100%;
+    display: flex;
+    margin: 1%;
+    padding: 1%;
+    text-decoration: none;
+    border: 1px solid #FF00C7;
+    color: black;
+}
+.area_one .right a .image_area_one_right
+{
+    width: 140%;
+    height: 30%;
+}
+.area_one .right a .image_area_one_right img
+{
+    width: 100%;
+    height: 100%;
+}
+.area_one .right a .heading
+{
+    font-size: 120%;
+    padding: 1%;
+    text-align: right;
+}
+.area_zero
+{
+    margin: 2%;
+    padding: 1%;
+}
+.area_zero a
+{
+    width: 100%;
+    text-decoration: none;
+}
+.area_zero a .image
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.area_zero a .image img
+{
+    width: 90%;
+}
+.area_zero a .heading
+{
+    font-size: 150%;
+    color: #FF00C7;
+    font-weight: 1000;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+
+@media(max-width:540px)
+{
+    #desktop
+    {
+        display: none;
+    }
+    #mobile
+    {
+        display: flex;
+        width: 100%;
+    }
+    #mobile .header
+    {
+        width: 100%;
+        display: flex;
+        position: fixed;
+        border-bottom: 1px solid #FF00C7;
+        background-color: #FFE99D;
+    }
+    #mobile .header button
+    {
+        width: 10%;
+        border: none;
+        background-color: transparent;
+    }
+    #mobile .header button img
+    {
+        width: 150%;
+    }
+    #mobile .header .brand
+    {
+        display: flex;
+        justify-content: end;
+        padding-right: 3%;
+    }
+    #mobile .header .brand .logo
+    {
+        width: 10%;
+    }
+    #mobile .header .brand .logo img
+    {
+        width: 100%;
+    }
+    #mobile .header .brand .heading
+    {
+        font-family: 'Teko', sans-serif;
+        font-size: 150%;
+    }
+    .area_zero
+    {
+        margin-top: 15%;
+    }
+    .area_zero a .heading
+    {
+        font-size: 100%;
+    }
+    .area_one
+    {
+        display: block;
+    }
+    .area_one .left
+    {
+        width: 100%;
+    }
+    .area_one .left .row a .heading
+    {
+        font-size: 10px;
+    }
+    .area_one .right
+    {
+        width: 95%;
+        margin-bottom: 20%;
+    }
+    .area_one .right a .heading
+    {
+        font-size: 100%;
+    }
+    .linkers
+    {
+        display: none;
+        margin-top: 11%;
+        background-color: #FFE99D;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+    }
+    .linkers a
+    {
+        font-family: 'Teko', sans-serif;
+        font-size: 200%;
+        text-decoration: none;
+        color: #FF00C7;
+        border-bottom:1px solid #FF00C7 ;
+    }
+}
