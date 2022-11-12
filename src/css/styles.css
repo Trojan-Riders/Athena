@@ -135,7 +135,11 @@
     background-image: url("../img/relationship.jpg");
 }
 @media(max-width:786px)
-{
+{   
+    .opening .filter .center .search_bar input
+    {
+        font-size: 100%;
+    }
     .navs a
     {
         height: 200px;
@@ -162,6 +166,10 @@
 }
 @media(max-width:441px)
 {
+    .opening .filter .center .search_bar input
+    {
+        font-size: 70%;
+    }
     .navs a
     {
         height: 100px;
@@ -170,5 +178,12 @@
     .navs a .topic
     {
         font-size: 100%;
+    }
+}
+@media(max-width:343px)
+{
+    .opening .filter .center .search_bar input
+    {
+        font-size: 50%;
     }
 }
