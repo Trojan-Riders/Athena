@@ -32,3 +32,8 @@ function search()
             document.getElementById('four_d').innerHTML=response.data.organic_results[3].desc;
         });
 }
+document.getElementById('search_bar').addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+      search();
+    }
+  });
