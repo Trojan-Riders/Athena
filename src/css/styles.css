@@ -1,0 +1,61 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.opening
+{
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+}
+.opening .filter
+{
+    background-color: rgba(0,0,0,0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+.opening .filter .center
+{
+    width: 30%;
+    text-align: center;
+}
+.opening .filter .center .image
+{
+    width: 100%;
+}
+.opening .filter .center .image img
+{
+    width: 100%;
+}
+.opening .filter .center .search_bar
+{
+    display: flex;
+    justify-content: center;
+}
+.opening .filter .center .search_bar button
+{
+    width: 10%;
+    background-color: rgba(255,255,255,0.1);
+    border: none;
+    padding: 1%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.opening .filter .center .search_bar button img
+{
+    width: 100%;
+}
+.opening .filter .center .search_bar input
+{
+    outline: none;
+    color: white;
+    background-color: rgba(255,255,255,0.1);
+    padding: 3%;
+    border: none;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 120%;
+}
